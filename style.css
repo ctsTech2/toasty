@@ -1,0 +1,40 @@
+/*
+Theme Name: Toasty
+Theme URI: https://toasty.com
+Author: Ryan Templin
+Author URI: https://fastwordpressguy.com
+Description:  A clean, strong theme for making a calm, relaxed feel.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: toasty-theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html {
+    height: 100%;
+    background: #000000;
+    font-family: Georgia, serif;
+    line-height: 1.5em;
+}
+
+#site-header {
+    font-size: 32 px;
+    color: #ff8c00;
+    letter-spacing: 1 px;
+}
+
+#site-content {
+
+    max-width: 625 px;
+    border-radius: 5 px;
+}
+
+.content {
+    color: #ff8c00;
+}
+
+a {
+    color: white;
+}
