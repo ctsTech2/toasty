@@ -41,4 +41,6 @@ a {
 
 #site-footer {
     color: #50C878;
+    text-align: center;
+    text-transform: uppercase;
 }

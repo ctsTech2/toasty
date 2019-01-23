@@ -6,8 +6,13 @@
     
         <div class='content'>
             <?php the_excerpt() ?>
+            Written by: <?php the_author() ?></br>
+            <?php the_date() ?>
+            <?php the_post_thumbnail() ?>
         </div>
     <?php endwhile ?>
+
+    <?php  wp_link_pages(); ?>
 
 <?else : ?>
     <p>Well...unfortunately there's no posts.</p>
